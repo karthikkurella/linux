@@ -1,0 +1,44 @@
+stdin anta mari chudu ento adhi printf vaadaka pothe
+and
+
+                stdin stdout and stderr
+                
+                
+Read valla vache probs anta (bytes , partial read and interrupts )   (inka undachu) 
+                
+                
+                
+Signals in linux (event happens and status of events (either 0 or 1))
+        EINTR------will be set only when interrupt 
+        
+        signals may be (set or reset)
+        
+        
+1) write syscalls to open ,write ,read file
+2) WRITE A PGM IN C only using syscalss to open ,read,write files
+3)write pgm using syscalls to concentanate two files
+
+
+
+Inorder to compile kernel level prog we need to use makefile and compile 
+as gcc support till the system calls level.............. and further cannot be proceeded.
+
+
+as in prog we need to include MODULE_LICENSE("GPL") and module_init(init) and also module_exit(exit)
+
+prog starts with module_init() and ending is done with module_exit()
+
+for kernel level file system we need to set the file system to be KERNEL_DS
+
+set_fs() to set file sys in kernel level prog
+
+
+sudo make -c path 
+
+sudo insmod try1.ko
+
+
+
+
+
+
